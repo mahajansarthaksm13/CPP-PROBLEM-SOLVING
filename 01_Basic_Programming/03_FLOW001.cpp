@@ -1,0 +1,11 @@
+// FLOW001 - Add Two Numbers
+#include <iostream>
+using namespace std;
+int main() {
+    int t; long long a, b;
+    cin >> t;
+    while (t--) {
+        cin >> a >> b;
+        cout << a + b << '\n';
+    }
+}
