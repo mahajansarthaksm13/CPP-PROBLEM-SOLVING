@@ -1,4 +1,4 @@
-// TALLER - who is taller
+// TALLER - print A if Alice is taller, otherwise B
 #include <iostream>
 using namespace std;
 int main() {
@@ -6,6 +6,6 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> x >> y;
-        cout << (x > y ? "Alice" : "Bob") << '\n';
+        cout << (x > y ? 'A' : 'B') << '\n';
     }
 }

@@ -1,11 +1,8 @@
-// PRACLIST - un-attempted = X - Y
+// PRACLIST - un-attempted = X - Y (single line of input, no test-case count)
 #include <iostream>
 using namespace std;
 int main() {
-    int t, x, y;
-    cin >> t;
-    while (t--) {
-        cin >> x >> y;
-        cout << x - y << '\n';
-    }
+    long long x, y;
+    cin >> x >> y;
+    cout << x - y << '\n';
 }

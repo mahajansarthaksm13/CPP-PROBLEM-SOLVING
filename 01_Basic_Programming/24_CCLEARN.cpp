@@ -1,11 +1,8 @@
-// CCLEARN - 2 courses per language
+// CCLEARN - 2 courses per language (single integer input)
 #include <iostream>
 using namespace std;
 int main() {
-    int t, n;
-    cin >> t;
-    while (t--) {
-        cin >> n;
-        cout << 2 * n << '\n';
-    }
+    long long n;
+    cin >> n;
+    cout << 2 * n << '\n';
 }
